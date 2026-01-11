@@ -1,2 +1,2 @@
 # dsa_preparation
-DSA practice repo for continuous skill upgradation and problem-solving growth.
+DSA preparation repo for continuous skill upgradation and problem-solving growth.
