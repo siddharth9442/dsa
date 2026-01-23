@@ -173,19 +173,285 @@ int main() {
     //     row++;
     // }
     
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n) {
+    //         char ch = 'A' + col + row - 2;
+    //         cout << ch;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+    
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= row) {
+    //         char ch = 'A' + row - 1;
+    //         cout << ch;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // int row = 1;
+    // char ch = 'A';
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= row) {
+    //         cout << ch;
+    //         ch++;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+    
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     char ch = 'A' + row - 1;
+    //     while(col <= row) {
+    //         // char ch = 'A' + row + col - 2;
+    //         cout << ch;
+    //         ch++;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+    
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     char ch = 'A' + n - row;
+    //     while(col <= row) {
+    //         cout << ch;
+    //         ch++;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     char ch = 'A' + row - 1;
+    //     while(col <= n) {
+    //         cout << ch;
+    //         ch++;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n-row) {
+    //         cout << " ";
+    //         col++;
+    //     }
+
+    //     while(col <= n) {
+    //         cout << "*";
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // above problem can be solved using single inner loop
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n) {
+    //         if(col <= n-row) {
+    //             cout << " ";
+    //         } else {
+    //             cout << "*";
+    //         }
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+    
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= (n - row + 1)) {
+    //         cout << "*";
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= row - 1) {
+    //         cout << " ";
+    //         col++;
+    //     }
+    //     while(col <= n) {
+    //         cout << "*";
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // above problem can be solved using single inner loop
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n) {
+    //         if(col < row) {
+    //             cout << " ";
+    //         } else {
+    //             cout << "*";
+    //         }
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+    
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col < row) {
+    //         cout << " ";
+    //         col++;
+    //     }
+    //     while(col <= n) {
+    //         cout << row;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // same problem can be solved using one inner loop
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n) {
+    //         if(col < row) {
+    //             cout << " ";
+    //         } else {
+    //             cout << row;
+    //         }
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n - row) {
+    //         cout << " ";
+    //         col++;
+    //     }
+    //     while(col <= n) {
+    //         cout << row;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // same problem can be solved using single inner loop
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n) {
+    //         if(col <= n - row) {
+    //             cout << " ";
+    //         } else {
+    //             cout << row;
+    //         }
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col < row) {
+    //         cout << " ";
+    //         col++;
+    //     }
+    //     while(col <= n) {
+    //         cout << col;
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+    
+    // same problem can be solved using single inner loop
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n) {
+    //         if(col < row) {
+    //             cout << " ";
+    //         } else {
+    //             cout << col;
+    //         }
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+     
+    // int row = 1;
+    // int count = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n - row) {
+    //         cout << " ";
+    //         col++;
+    //     }
+    //     while(col <= n) {
+    //         cout << count;
+    //         col++;
+    //         count++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+    
+    // same problem can be solved using single inner loop
     int row = 1;
+    int count = 1;
     while(row <= n) {
         int col = 1;
         while(col <= n) {
-            char ch = 'A' + col + row - 2;
-            cout << ch;
+            if(col <= n - row) {
+                cout << " ";
+            } else {
+                cout << count;
+                count++;
+            }
             col++;
         }
         cout << endl;
         row++;
     }
     
-    
-
     return 0;
 }
