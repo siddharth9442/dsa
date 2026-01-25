@@ -436,19 +436,93 @@ int main() {
     // }
     
     // same problem can be solved using single inner loop
+    // int row = 1;
+    // int count = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n) {
+    //         if(col <= n - row) {
+    //             cout << " ";
+    //         } else {
+    //             cout << count;
+    //             count++;
+    //         }
+    //         col++;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // int row = 1;
+    // while(row <= n) {
+    //     // space
+    //     int space = n - row;
+    //     while(space) {
+    //         cout << " ";
+    //         space--;
+    //     }
+
+    //     // first half
+    //     int col = 1;
+    //     while(col <= row) {
+    //         cout << col;
+    //         col++;
+    //     }
+
+    //     // second half
+    //     int start = row - 1;
+    //     while(start) {
+    //         cout << start;
+    //         col++;
+    //         start--;
+    //     }
+        
+    //     cout << endl;
+    //     row++;
+    // }
+
+    // int row = 1;
+    // while(row <= n) {
+    //     int col = 1;
+    //     while(col <= n - row) {
+    //         cout << " ";
+    //         col++;
+    //     }
+    //     int count = 1;
+    //     while(col <= n + row - 1) {
+    //         cout << count;
+    //         col++;
+    //         if(col <= n) count++;
+    //         if(col > n) count--;
+    //     }
+    //     cout << endl;
+    //     row++;
+    // }
+
     int row = 1;
-    int count = 1;
     while(row <= n) {
         int col = 1;
         while(col <= n) {
-            if(col <= n - row) {
-                cout << " ";
-            } else {
-                cout << count;
-                count++;
+            if(col <= n - row + 1) {
+                cout << col;
+            } else{
+                cout << "*";
             }
             col++;
         }
+
+        int count = n + n;
+        int j = n;
+        while(col <= count) {
+            if(col <= n + row - 1) {
+                cout << "*";
+            } else {
+                cout << j;
+            }
+            j--;
+            col++;
+        }
+        
         cout << endl;
         row++;
     }
